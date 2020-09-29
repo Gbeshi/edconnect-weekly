@@ -1,0 +1,27 @@
+         .info{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: left;
+            font-size: 130%;
+            border: 5px;
+            padding: 5px;
+            }
+
+            body{
+                background-color: brown;
+                font-family: 'Times New Roman', Times, serif;
+                color: coral;
+            }
+
+            #country,#hobbies{
+                line-height: 40px;   
+            }
+
+            #hobbies{
+                color: cyan;
+                font:120% cursive;
+            }
+            table{
+                border-color: cadetblue;
+                color:black;
+                border-collapse: collapse;
+            }
