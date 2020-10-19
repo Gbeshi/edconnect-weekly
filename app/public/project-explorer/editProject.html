@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>Edit Project</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="topnav">
+            <a href="index.html">Project Explorer</a>
+            <input type="search" placeholder="Search Projects" name="search">
+            <input type="submit" name="submit" value="Search">  
+            <a href="search.html">Projects</a>
+            <a href="createProject.html">Submit</a>
+            
+            <div class="topnav-right">
+                <a href="register.html">Sign up</a>
+            <a href="login.html">Login</a>    
+        </div>
+        </div>
+        <form>
+        <h3>Project 4</h3>
+        <table id="tablePro2">
+            <tr>
+                <td>Created By</td>
+                <td>Date Created</td>
+                <td>Last Updated</td>
+            </tr>
+            <tr>
+                <td>Adegbesan Adeolu</td>
+                <td>2020/10/16</td>
+                <td>2020/10/16</td>
+                <td><a href="viewProject.html">View Project</a></td>
+            </tr>
+        </table>
+        <h3 id="loatProj"> Manage Project Files</h3>
+            <h3 class="editProj">Edit Project</h3>
+                <p class="floatProj">
+                    <input type="search" placeholder="click to open file browser">
+                <input type="file" name="projectFile">
+            </p>
+
+            <p class="editProj">
+            <label>Project Name:</label><br>
+            <input type="text" placeholder="Project 4" name="name"></p>
+
+            <p class="editProj">
+                <label>Project Abstract:</label><br>
+                <textarea name="abstract">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. 
+                    Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique.</textarea>
+            </p>
+
+            <p class="editProj">
+                <label>Authors:</label><br>
+                <input type="text" value="Ade Ade, Brian James" name="authors">
+            </p>
+
+            <p class="editProj">
+                <label>Tags</label><br>
+                <input type="text" value="#yaml, #ejs" name="tags">
+            </p>
+
+            <input class="editProj" type="submit" value="Save">
+        </form>
+        <div class="bottomNav">
+            Project Explorer(c)2020 Adeoluwa
+        </div>
+    </body>
+</html>

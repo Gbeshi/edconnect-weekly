@@ -1,0 +1,306 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.topnav {
+    background-color: dodgerblue;
+    text-align: center;
+    overflow: hidden;
+  }
+  .topnav input{
+    float: left;
+    color: firebrick;
+    opacity: 0.7;
+    margin-top: 8px;
+    text-align: center;
+    text-decoration: none;
+    
+  }
+  .topnav-right{
+      float: right;  
+      color: floralwhite;
+      padding: 6px 5px;  
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+
+  }
+  .topnav a{
+    float: left;
+    color: floralwhite;
+    padding: 6px 5px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .first{
+      background-color: orchid;
+      font-size: 15px;
+      text-align: justify;
+      margin-left: 100px;
+      margin-right: 155px;
+      margin-top: 10px;
+      padding: 55px;
+      padding-bottom: 60px;
+  }
+  .first a{
+      text-decoration: none;
+      background-color: teal;
+      color: white;
+  }
+
+  table{
+      border-spacing: 25px;
+      border-style: hidden;
+      margin-left: 75px;
+      padding-right: 128px;
+  }
+  
+  h4{
+      color: magenta;
+  }
+  .tags{
+      color: magenta;
+  }
+  h1{
+      font-size: 40px;
+  }
+  .bottomNav{
+      font-size: 12px;
+      float: right;
+      color: thistle;
+      margin-right: 150px;
+      background-color: cornflowerblue;
+      overflow: hidden;
+  }
+  .login input {
+    width: 50%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+  }
+  .login input[type=button]{
+      background-color: darkslateblue;
+      color: aqua;
+  }
+  .login{
+      margin-left: 35%;
+  }
+  .signUp{
+      padding-top: 5px;
+      margin-left: 10%;
+      padding: 5px 5px;
+  }
+  .signUp input{
+      width: 110%;
+  }
+  .heading{
+      text-align: left;
+  }
+  .signUp input[type=button]{
+    background-color: darkslateblue;
+    color: aqua;
+    font-size: 16px;
+  }
+  #sign{
+        padding-left: 100px;  
+  }
+  ul{
+      list-style: none;
+      display: inline-block;
+      
+  }
+  #profileHead{
+      font-size: 15.5px;
+      margin-left: 145px;
+      border-bottom-style: inset;
+  }
+  .proTable{
+      border-collapse: separate;
+      border-spacing: 20px 10px;
+      margin-left: 160px;
+  }
+  .profile{
+    font-size: 14px;
+    padding-top: 5px;
+    margin-left: 10%;
+    padding: 5px 5px;
+    border-style: hidden;
+  }
+  #tablePro{
+      border-spacing: 20 5px;
+      background-color: lightgray;
+      padding-left: 50px;
+      padding-right: 50px;
+      margin-left: 145px;
+      margin-right: 70px;
+      width: 80%;
+      
+  }
+  .intro{
+      margin-left: 145px;
+  }
+  #tablePro a{
+    border-spacing: 5px;
+    float: right;
+    border-style: groove;
+    background-color: blue;
+    color: white;
+    border-color: blue;
+    text-decoration: none;
+    overflow: hidden;
+  }
+  #pwd{
+      border-bottom-style: inset;
+  }
+  .profile input[type=button]{
+    background-color: rosybrown;
+    color: wheat;
+    font-size: 14px;
+  }
+  #gal{
+      margin-left: 150px;
+  }
+  .search input[type=search]{
+      width: 70%;
+      padding: 5px;
+      padding-left: 10px;
+      margin-top: 10px;
+  }
+  #horizon{
+    border-spacing: 0 5px;
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 5px;
+    overflow: hidden;
+    width: 80%;
+    text-align: center;
+    margin-left: 150px;   
+  }
+  .search input[type=submit]{
+    padding: 5px;  
+    background-color: darkturquoise;
+  }
+  .search select{
+      padding: 5px;
+  }
+  .search label{
+      background-color: darkgrey;
+      padding-bottom: 5px;
+      padding-top: 1px;
+  }
+  .proj{
+      margin-left: 150px;
+      border-spacing: 0;
+      border-style: groove;
+      padding-right: 30px;
+  }
+  #lbl{
+      margin-left: 150px;
+      margin-top: 60px;
+  }
+  .create{
+      padding-top: 15px;
+      margin-left: 30%;
+  }
+  .create input[type=text]{
+      width: 50%;
+  }
+  .create textarea{
+      width: 50%;
+      height: 25%;
+  }
+  .create input[type=submit]{
+    padding: 5px;  
+    background-color: darkturquoise;
+  }
+  .editProj{
+      margin-left: 145px;
+  }
+  .editProj input[type=text]{
+      width: 45%;
+  }
+  .editProj textarea{
+      width: 45%;
+      height: 20%;
+  }
+  .floatProj{
+      float: right;
+      width: 45%;
+      margin: 0;
+      padding-right: 50px;
+  }
+  #loatProj{
+    float: right;
+    padding-right: 50px;
+    margin-right: 70px; 
+    width: 40%;
+    
+  }
+  .floatProj input[type=search]{
+      width: 50%;
+  }
+  #tablePro2{
+    border-spacing: 20 5px;
+    background-color: lightgray;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 145px;
+    margin-right: 70px;
+    width: 75%;
+  }
+  #tablePro2 a{
+    float: right;
+    border-style: inset;
+    background-color: black;
+    color: crimson;
+    border-color: black;
+    text-decoration: none;
+    overflow: hidden;
+  }
+  #views{
+      float: right;
+      border-style: groove;
+      border-color: aqua;
+      border-collapse: collapse;
+      width: 40%;
+      height: 30%;
+      margin-right: 14%;
+  }
+  #headId{
+    float: right;
+    margin-right: 44.7%; 
+    border-bottom-style: groove;
+
+  }
+  #authors{
+      background-color: lightgray;
+  }
+  #views2{
+    float: right;
+    padding: 10px;
+    height: 15%;
+    width: 40%;
+    margin-top: 15px;
+    border-style: groove;
+    border-color: aqua;
+    border-collapse: collapse;
+    margin-right: 14%;   
+}
+#file{
+    text-align: center;
+}
+.abs{
+    margin-left: 11%;
+    width: 32%;
+    text-align: justify;
+}
+.abs2 textarea{
+    width: 92%;
+    height: 12%;
+}
+.abs2{
+    margin-top: 55px;
+    margin-left: 11%;
+    width: 32%;
+    text-align: justify;
+}

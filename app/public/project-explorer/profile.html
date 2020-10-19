@@ -1,0 +1,109 @@
+<html>
+    <head>
+        <title>Profile Page</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="topnav">
+            <a href="index.html">Project Explorer</a>
+            <input type="search" placeholder="Search Projects" name="search">
+            <input type="submit" name="submit" value="Search">  
+            <a href="search.html">Projects</a>
+            <a href="createProject.html">Submit</a>
+            
+            <div class="topnav-right">
+                <a href="register.html">Sign up</a>
+            <a href="login.html">Login</a>    
+        </div>
+        </div>
+        <p class="intro"><strong>Adegbesan Adeoluwa</strong> test@edconnect.ng</p>
+        <table id="tablePro">
+            <tr>
+                <td>Program</td>
+                <td>Matriculation</td>
+                <td>Graduation Year</td>
+            </tr>
+            <tr>
+                <td>Computer Science</td>
+                <td>00/0000</td>
+                <td>2020</td>
+            </tr>
+        </table>
+        
+        <h2 id="profileHead">Update Profile</h2>
+        <form class="profile">
+            <table class="proTable">
+                <tr>
+                    <th class="heading">First name</th>
+                    <th class="heading">Last name</th>
+                </tr>
+                <tr>
+                    <td><input type="text" placeholder="Ade" name="firstName"></td>
+                    <td><input type="text" placeholder="Bolade" name="lastName"></td>
+                </tr>
+                <tr>
+                    <th class="heading">Email Address</th>
+                    <th class="heading">Program</th>
+                </tr>
+                <tr>
+                    <td><input type="email" placeholder="test@edconnect.ng" name="email"></td>
+                    <td>
+                        <select name="program">   
+                        <option value="computer_science">Computer Science</option>
+                        <option value="computer_information_systems">Computer Information Systems</option>
+                        <option value="computer_technology">Computer Technology </option>
+                    </select>
+                </td>
+                </tr>
+                <tr>
+                    <th class="heading">Matriculation Number</th>
+                    <th class="heading">Graduation year</th>
+                </tr>
+                <tr>
+                    
+                    <td><input type="text" placeholder="00/0000" name="matricNumber"></td>
+                    <td>
+                        <select name="graduationYear">
+                            <option value="2020">2020</option>
+                            <option value="2019">2019</option>
+                            <option value="2018">2018</option>
+                            <option value="2017">2017</option>
+                            <option value="2016">2016</option>
+                            <option value="2015">2015</option>
+                            <option value="2014">2014</option>
+                            <option value="2013">2013</option>
+                            <option value="2012">2012</option>
+                            <option value="2011">2011</option>
+                            <option value="2010">2010</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="button" name="submit" value="Update Profile"></td>
+                </tr>
+            </table>
+
+            <h3 id="pwd">Change Password</h3>
+            <table class="proTable">
+                <tr>
+                    <th>Current Password</th>
+                    <th>New Password</th>
+                    <th>Confirm Password</th>
+                </tr>
+                <tr>
+                    <td><input type="password" placeholder="current password" name="currentPassword"></td>
+                    <td><input type="password" placeholder="new password" name="newPassword"></td>
+                    <td><input type="password" placeholder="confirm password" name="confirmPassword"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" name="submit" value="Change Password"></td>
+                </tr>
+            </table>
+        </form>
+        <div class="bottomNav">
+            Project Explorer(c)2020 Adeoluwa
+        </div>
+        
+        
+    </body>
+</html>
